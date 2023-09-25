@@ -1,0 +1,77 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	h1 {
+		font-size: 42px;
+	}
+    p {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.BeCode{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Sans-serif;
+    background-color: #46C3C6;
+    border-width: 2px 2px 2px 2px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.containerSVG{
+
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+
+.containerSVG a{
+    color: black;
+}
+
+.containerSVG i{
+    font-size: 2em;
+}
+
+.formation{
+    position: relative;
+    top: 100px;
+}
