@@ -48,6 +48,13 @@ p{
     border-width: 2px 2px 2px 2px;
     padding: 7px 10px 7px 10px;
     border-radius: 4px 4px 4px 4px;
+    transition: 2s;
+    
+}
+
+.BeCode:hover{
+    font-size: 50px;
+    transition: 2s;
 }
 
 .containerSVG{
@@ -67,9 +74,17 @@ p{
     color: black;
 }
 
+
 .containerSVG i{
     font-size: 2em;
+    transition: 1s;
 }
+
+.containerSVG i:hover{
+    font-size: 2.5em;
+    transition: 1s;
+}
+
 
 .formation{
     position: relative;
